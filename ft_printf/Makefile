@@ -5,11 +5,11 @@ CC := cc
 CFLAGS := -Wall -Wextra -Werror
 
 SRC := \
-	1ft_printf.c \
-	2ft_va_start.c \
-	3find_arg.c \
-	4print_base.c \
-	5print_str.c
+	ft_printf.c \
+	va_start.c \
+	find_arg.c \
+	print_base.c \
+	print_str.c
 
 
 OBJ := $(SRC:.c=.o)
